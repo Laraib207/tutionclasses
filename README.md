@@ -29,29 +29,12 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-## Put it live on the internet (free) — Vercel
+## Live on Netlify
 
-1. Create a free account at https://vercel.com (you can sign up with GitHub,
-   GitLab, or an email address).
-2. Create a free account at https://github.com if you don't have one, create
-   a new empty repository, and push this project to it:
-   ```bash
-   git init
-   git add .
-   git commit -m "iBzA Tuition Class"
-   git branch -M main
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
-3. In Vercel, click **Add New → Project**, pick your repository, and click
-   **Deploy**. No settings need to change — Vercel detects Next.js
-   automatically.
-4. In a minute or two you'll get a live link like
-   `https://ibza-tuition.vercel.app` that works on every device — phone,
-   tablet, laptop.
-
-(You can also drag-and-drop deploy without Git using the Vercel CLI:
-`npx vercel` from this folder, then follow the prompts.)
+This project is deployed on Netlify at
+https://heroic-puffpuff-72f2da.netlify.app. Netlify detects Next.js
+automatically; the build settings live in `netlify.toml`. Every change pushed
+to the `main` branch is deployed to the live site automatically.
 
 ## Important note about data storage
 
